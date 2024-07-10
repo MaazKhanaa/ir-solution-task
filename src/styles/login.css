@@ -1,0 +1,38 @@
+.main-heading {
+  font-weight: 600;
+  font-size: 64px;
+  color: #222b33;
+  margin-top: 52px;
+}
+.login-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #3b4752;
+}
+.loginBg {
+  background-image: url("../assets/images/loginBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .loginFormDev {
+    position: absolute;
+    top: 20px;
+    z-index: 998;
+    overflow: auto;
+  }
+  .transparentBG {
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    width: 90%;
+    margin-bottom: 30px;
+
+  }
+}
