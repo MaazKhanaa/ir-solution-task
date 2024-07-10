@@ -8,8 +8,7 @@ export const Dashboard = () => {
 
     const logout = () => {
         localStorage.clear();
-        debugger
-        navigate("/login")
+        navigate("/")
       }
     return (
         <Fragment>

@@ -103,7 +103,7 @@ export const LoginForm = () => {
                         <label htmlFor="checkbox" className="text-gray-900">Keep me signed in</label>
                     </div>
                     <div>
-                        <Link to="/login" className="text-black-500 underline font-medium hover:text-blue-700">Forgot password?</Link>
+                        <Link to="/" className="text-black-500 underline font-medium hover:text-blue-700">Forgot password?</Link>
                     </div>
                 </div>
 
@@ -113,7 +113,7 @@ export const LoginForm = () => {
             </form>
 
             <div className="mt-8">
-                <p className="text-center">Haven’t joined yet? <Link to="/login" className="underline font-medium">Sign in</Link></p>
+                <p className="text-center">Haven’t joined yet? <Link to="/" className="underline font-medium">Sign in</Link></p>
             </div>
         </div>
     )

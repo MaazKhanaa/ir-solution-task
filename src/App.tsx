@@ -14,7 +14,7 @@ const App: React.FC = () => {
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
         <Route element={<AuthLayout />}>
-          <Route path='/login' element={<LoginForm />} />
+          <Route path='/' element={<LoginForm />} />
         </Route>
       </Routes>
     </Router>
