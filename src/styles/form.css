@@ -1,0 +1,34 @@
+.formLabel {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222B33;
+    line-height: 32px;
+}
+.formInput {
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #CFD8E1;
+    padding: 10px 12px 10px 12px;
+    background-color: #F9FAFB;
+}
+.formInput:focus-visible {
+    outline: none;
+}
+.formGroup {
+    margin-bottom: 8px;
+}
+.primaryBtn, .secondaryBtn {
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid #00E687;
+    background-color: #00E687;
+    padding: 14px 12px 14px 12px;
+    font-size: 16px;
+    font-weight: 460;
+    line-height: 18px;
+}
+.secondaryBtn {
+    background-color: #ffffff;
+    border-color: #CFD8E1;
+}
